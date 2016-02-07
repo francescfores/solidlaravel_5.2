@@ -59,9 +59,11 @@
         @media only screen and (max-width : 320px) {
 
         }
-
+        .space{
+            margin:100px;
+        }
         /*Design with bootsrap*/
-        
+
         /* green panel */
 
         .price.panel-green>.panel-heading {
@@ -132,13 +134,13 @@
 
         .price.panel-grey>.panel-heading {
             color: #fff;
-            background-color: #6D6D6D;
-            border-color: #B7B7B7;
-            border-bottom: 1px solid #B7B7B7;
+            background-color: #f39c12;
+            border-color: #FFF176;
+            border-bottom: 1px solid #FFF176;
         }
         .price.panel-grey>.panel-body {
             color: #fff;
-            background-color: #808080;
+            background-color: #FFCA28;
         }
         .price.panel-grey>.panel-body .lead{
             text-shadow: 0px 3px 0px rgba(50,50,50, .3);
@@ -155,7 +157,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="box">
                     <div class="box-header">
-                    <h1>Pricing</h1>
+                    <h1>Pricing table with Bootstrap</h1>
                         <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
 
@@ -234,12 +236,14 @@
                                     <li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
                                 </ul>
                                 <div class="panel-footer">
-                                    <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
+                                    <a class="btn btn-lg btn-block btn-warning" href="#">BUY NOW!</a>
                                 </div>
                             </div>
                             <!-- /PRICE ITEM -->
                         </div>
                         </div>
+                        <div class="space"></div>
+                        <h1>Pricing table with Flexbox</h1>
                         <div class="row">
                             <div class="grid-row">
                                 <div class="colum col3">
@@ -310,7 +314,7 @@
                                             <li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
                                         </ul>
                                         <div class="panel-footer">
-                                            <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW!</a>
+                                            <a class="btn btn-lg btn-block btn-warning" href="#">BUY NOW!</a>
                                         </div>
                                     </div>
                                 </div>
