@@ -28,4 +28,17 @@ Route::get('/', function () {
 
 Route::group(['middleware' => ['web']], function () {
     //
+    Route::get('pricing',function(){
+        return view('pricing');
+    });
+    Route::get('apartat2',function(){
+        return view('apartat2');
+    });
+    Route::get('apartat3',function(){
+        return view('apartat3');
+    });
+
+    Route::get('apartat3',function(){
+        return view('apartat3');
+    });
 });
