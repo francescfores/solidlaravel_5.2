@@ -23,6 +23,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
     <script src="{{ asset('/plugins/jQuery/jQuery-2.1.4.min.js') }}"></script>
     <script src="{{ asset('/js/smoothscroll.js') }}"></script>
 
+    <link rel="stylesheet" href="css/all.css">
 
 </head>
 
@@ -244,8 +245,10 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
         <div class="col-lg-7">
             <h3>Drop Us A Line</h3>
+            {{Session::get('notification')}}
             <br>
-            <form role="form" action="#" method="post" enctype="plain">
+            <form role="form" action="sentContactEmail" method="post" enctype="plain">
+                {{csrf_field()}}
                 <div class="form-group">
                     <label for="name1">Your Name</label>
                     <input type="name" name="Name" class="form-control" id="name1" placeholder="Your Name">
@@ -282,11 +285,24 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="{{ asset('/js/bootstrap.min.js') }}" type="text/javascript"></script>
+<script src="js/all.js"></script>
 <script>
     $('.carousel').carousel({
         interval: 3500
     })
 </script>
+@if(session()->has('notification'))
+    <script>
+        swal({
+                    title: "Good Job!",
+                    text: "{{Session::get('flash_message')}}",
+                    type: "success",
+                    confirmButtonText: "Ok!",
+                    timer: 2000,
+                }
+        )
+    </script>
+@endif
+
 </body>
 </html>

@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 /*
 |--------------------------------------------------------------------------
@@ -28,6 +26,16 @@ Route::get('/', function () {
 
 Route::group(['middleware' => ['web']], function () {
     //
+    Route::get('/', function () {
+        return view('welcome');
+    });
+
+    Route::get('welcome', function () {
+        return view('welcome');
+    });
+
+    Route::post('sentContactEmail','ContactEmailController@send');
+
     Route::get('pricing',function(){
         return view('pricing');
     });

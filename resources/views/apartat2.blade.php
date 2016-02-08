@@ -11,11 +11,9 @@
 			<div class="col-xs-12">
 				<div class="box">
 					<div class="box-header">
-
-
-						<div class="alert alert-danger">
-							<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-							<strong>Apartat 2</strong> Alert body ...
+						<h1>Sweet alerts</h1>
+						<div class="row">
+							<div class="col-lg-12">e</div>
 						</div>
 					</div>
 					<!-- /.box-header -->

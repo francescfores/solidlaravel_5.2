@@ -157,7 +157,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="box">
                     <div class="box-header">
-                    <h1>Pricing table with Bootstrap</h1>
+                    <h1>Pricing table with Bootstrap</h1><br/>
                         <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
 
@@ -243,7 +243,7 @@
                         </div>
                         </div>
                         <div class="space"></div>
-                        <h1>Pricing table with Flexbox</h1>
+                        <h1>Pricing table with Flexbox</h1><br/>
                         <div class="row">
                             <div class="grid-row">
                                 <div class="colum col3">
