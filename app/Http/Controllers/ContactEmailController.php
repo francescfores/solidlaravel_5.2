@@ -19,6 +19,7 @@ class ContactEmailController extends Controller
         //TODO:SEND EMAIL
 
         //FLASH NOTIFICACION
+
                 $request->session()->flash(
                   'notification',
                   'All ok'
@@ -26,7 +27,8 @@ class ContactEmailController extends Controller
         //REDIRECT
 
         //return redirect()->route('welcome');
-        return view('welcome');
+        //return view('welcome');
+        return view('sweetalerts');
     }
 
     public function sendEmail(){

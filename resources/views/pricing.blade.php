@@ -39,7 +39,7 @@
         /* Medium Devices, Desktops */
         @media only screen and (max-width : 992px) {
             .col3{
-                flex-basis:50%;
+                flex-basis:75%;
             }
         }
 
@@ -152,95 +152,95 @@
             text-shadow: 0px 1px 0px rgba(250,250,250, .75);
         }
     </style>
-    <div class="container-fluid">
+    <div class="container-fluid spark-screen">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="col col-lg-12">
                 <div class="box">
                     <div class="box-header">
-                    <h1>Pricing table with Bootstrap</h1><br/>
+                        <h1>Pricing table with Bootstrap</h1><br/>
                         <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
 
-                            <!-- PRICE ITEM -->
-                            <div class="panel price panel-red">
-                                <div class="panel-heading  text-center">
-                                    <h3>PRO PLAN</h3>
+                                <!-- PRICE ITEM -->
+                                <div class="panel price panel-red">
+                                    <div class="panel-heading  text-center">
+                                        <h3>PRO PLAN</h3>
+                                    </div>
+                                    <div class="panel-body text-center">
+                                        <p class="lead" style="font-size:40px"><strong>$10 / month</strong></p>
+                                    </div>
+                                    <ul class="list-group list-group-flush text-center">
+                                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+                                        <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
+                                        <li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
+                                    </ul>
+                                    <div class="panel-footer">
+                                        <a class="btn btn-lg btn-block btn-danger" href="#">BUY NOW!</a>
+                                    </div>
                                 </div>
-                                <div class="panel-body text-center">
-                                    <p class="lead" style="font-size:40px"><strong>$10 / month</strong></p>
-                                </div>
-                                <ul class="list-group list-group-flush text-center">
-                                    <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
-                                    <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
-                                    <li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
-                                </ul>
-                                <div class="panel-footer">
-                                    <a class="btn btn-lg btn-block btn-danger" href="#">BUY NOW!</a>
-                                </div>
+                                <!-- /PRICE ITEM -->
                             </div>
-                            <!-- /PRICE ITEM -->
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                            <!-- PRICE ITEM -->
-                            <div class="panel price panel-blue">
-                                <div class="panel-heading arrow_box text-center">
-                                    <h3>DEV PLAN</h3>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                                <!-- PRICE ITEM -->
+                                <div class="panel price panel-blue">
+                                    <div class="panel-heading arrow_box text-center">
+                                        <h3>DEV PLAN</h3>
+                                    </div>
+                                    <div class="panel-body text-center">
+                                        <p class="lead" style="font-size:40px"><strong>$20 / month</strong></p>
+                                    </div>
+                                    <ul class="list-group list-group-flush text-center">
+                                        <li class="list-group-item"><i class="icon-ok text-info"></i> Personal use</li>
+                                        <li class="list-group-item"><i class="icon-ok text-info"></i> Unlimited projects</li>
+                                        <li class="list-group-item"><i class="icon-ok text-info"></i> 27/7 support</li>
+                                    </ul>
+                                    <div class="panel-footer">
+                                        <a class="btn btn-lg btn-block btn-info" href="#">BUY NOW!</a>
+                                    </div>
                                 </div>
-                                <div class="panel-body text-center">
-                                    <p class="lead" style="font-size:40px"><strong>$20 / month</strong></p>
-                                </div>
-                                <ul class="list-group list-group-flush text-center">
-                                    <li class="list-group-item"><i class="icon-ok text-info"></i> Personal use</li>
-                                    <li class="list-group-item"><i class="icon-ok text-info"></i> Unlimited projects</li>
-                                    <li class="list-group-item"><i class="icon-ok text-info"></i> 27/7 support</li>
-                                </ul>
-                                <div class="panel-footer">
-                                    <a class="btn btn-lg btn-block btn-info" href="#">BUY NOW!</a>
-                                </div>
+                                <!-- /PRICE ITEM -->
                             </div>
-                            <!-- /PRICE ITEM -->
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
 
-                            <!-- PRICE ITEM -->
-                            <div class="panel price panel-green">
-                                <div class="panel-heading arrow_box text-center">
-                                    <h3>FREE PLAN</h3>
+                                <!-- PRICE ITEM -->
+                                <div class="panel price panel-green">
+                                    <div class="panel-heading arrow_box text-center">
+                                        <h3>FREE PLAN</h3>
+                                    </div>
+                                    <div class="panel-body text-center">
+                                        <p class="lead" style="font-size:40px"><strong>$0 / month</strong></p>
+                                    </div>
+                                    <ul class="list-group list-group-flush text-center">
+                                        <li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
+                                        <li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
+                                        <li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
+                                    </ul>
+                                    <div class="panel-footer">
+                                        <a class="btn btn-lg btn-block btn-success" href="#">BUY NOW!</a>
+                                    </div>
                                 </div>
-                                <div class="panel-body text-center">
-                                    <p class="lead" style="font-size:40px"><strong>$0 / month</strong></p>
-                                </div>
-                                <ul class="list-group list-group-flush text-center">
-                                    <li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
-                                    <li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
-                                    <li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
-                                </ul>
-                                <div class="panel-footer">
-                                    <a class="btn btn-lg btn-block btn-success" href="#">BUY NOW!</a>
-                                </div>
+                                <!-- /PRICE ITEM -->
                             </div>
-                            <!-- /PRICE ITEM -->
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-                            <!-- PRICE ITEM -->
-                            <div class="panel price panel-grey">
-                                <div class="panel-heading arrow_box text-center">
-                                    <h3>FREE PLAN</h3>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                                <!-- PRICE ITEM -->
+                                <div class="panel price panel-grey">
+                                    <div class="panel-heading arrow_box text-center">
+                                        <h3>FREE PLAN</h3>
+                                    </div>
+                                    <div class="panel-body text-center">
+                                        <p class="lead" style="font-size:40px"><strong>$0 / month</strong></p>
+                                    </div>
+                                    <ul class="list-group list-group-flush text-center">
+                                        <li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
+                                        <li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
+                                        <li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
+                                    </ul>
+                                    <div class="panel-footer">
+                                        <a class="btn btn-lg btn-block btn-warning" href="#">BUY NOW!</a>
+                                    </div>
                                 </div>
-                                <div class="panel-body text-center">
-                                    <p class="lead" style="font-size:40px"><strong>$0 / month</strong></p>
-                                </div>
-                                <ul class="list-group list-group-flush text-center">
-                                    <li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
-                                    <li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
-                                    <li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
-                                </ul>
-                                <div class="panel-footer">
-                                    <a class="btn btn-lg btn-block btn-warning" href="#">BUY NOW!</a>
-                                </div>
+                                <!-- /PRICE ITEM -->
                             </div>
-                            <!-- /PRICE ITEM -->
-                        </div>
                         </div>
                         <div class="space"></div>
                         <h1>Pricing table with Flexbox</h1><br/>
@@ -257,7 +257,11 @@
                                         <ul class="list-group list-group-flush text-center">
                                             <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
                                             <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited Clients</li>
                                             <li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited Storage</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Free Goodies</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> 1GB Storage</li>
                                         </ul>
                                         <div class="panel-footer">
                                             <a class="btn btn-lg btn-block btn-danger" href="#">BUY NOW!</a>
@@ -273,9 +277,13 @@
                                             <p class="lead" style="font-size:40px"><strong>$20 / month</strong></p>
                                         </div>
                                         <ul class="list-group list-group-flush text-center">
-                                            <li class="list-group-item"><i class="icon-ok text-info"></i> Personal use</li>
-                                            <li class="list-group-item"><i class="icon-ok text-info"></i> Unlimited projects</li>
-                                            <li class="list-group-item"><i class="icon-ok text-info"></i> 27/7 support</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited Clients</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited Storage</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Free Goodies</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> 1GB Storage</li>
                                         </ul>
                                         <div class="panel-footer">
                                             <a class="btn btn-lg btn-block btn-info" href="#">BUY NOW!</a>
@@ -291,9 +299,13 @@
                                             <p class="lead" style="font-size:40px"><strong>$0 / month</strong></p>
                                         </div>
                                         <ul class="list-group list-group-flush text-center">
-                                            <li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
-                                            <li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
-                                            <li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited Clients</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited Storage</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Free Goodies</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> 1GB Storage</li>
                                         </ul>
                                         <div class="panel-footer">
                                             <a class="btn btn-lg btn-block btn-success" href="#">BUY NOW!</a>
@@ -309,9 +321,13 @@
                                             <p class="lead" style="font-size:40px"><strong>$0 / month</strong></p>
                                         </div>
                                         <ul class="list-group list-group-flush text-center">
-                                            <li class="list-group-item"><i class="icon-ok text-success"></i> Personal use</li>
-                                            <li class="list-group-item"><i class="icon-ok text-success"></i> Unlimited projects</li>
-                                            <li class="list-group-item"><i class="icon-ok text-success"></i> 27/7 support</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited projects</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited Clients</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> 27/7 support</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited Storage</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Free Goodies</li>
+                                            <li class="list-group-item"><i class="icon-ok text-danger"></i> 1GB Storage</li>
                                         </ul>
                                         <div class="panel-footer">
                                             <a class="btn btn-lg btn-block btn-warning" href="#">BUY NOW!</a>
@@ -320,12 +336,10 @@
                                 </div>
                             </div>
                         </div>
-
-                </div><!-- /.box-body -->
+                    </div>
+                </div>
             </div>
         </div>
-        </section>
-        <!-- /.content -->
     </div>
-    </div>
+
 @endsection

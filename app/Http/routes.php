@@ -24,7 +24,7 @@
 |
 */
 
-Route::group(['middleware' => ['web']], function () {
+Route::group(['middleware' => ['web', 'pjax']], function () {
     //
     Route::get('/', function () {
         return view('welcome');
@@ -39,14 +39,12 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('pricing',function(){
         return view('pricing');
     });
-    Route::get('apartat2',function(){
-        return view('apartat2');
+    Route::get('sweetalerts',function(){
+        return view('sweetalerts');
     });
-    Route::get('apartat3',function(){
-        return view('apartat3');
+    Route::get('pjax',function(){
+        return view('pjax');
     });
 
-    Route::get('apartat3',function(){
-        return view('apartat3');
-    });
+
 });

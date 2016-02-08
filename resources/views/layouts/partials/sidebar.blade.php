@@ -36,8 +36,8 @@
                 <li class="active"><a href="{{ url('home') }}"><i class='fa fa-link'></i> <span>Home</span></a></li>
                 <li><a href="{{ url('invoices') }}"><i class='fa fa-link'></i> <span>Invoices</span></a></li>
                 <li><a href="{{ url('pricing') }}">pricing</a></li>
-                <li><a href="{{ url('apartat2') }}">apartat 2</a></li>
-                <li><a href="{{ url('apartat3') }}">apartat 3</a></li>
+                <li><a href="{{ url('sweetalerts') }}">sweetalerts</a></li>
+                <li><a href="{{ url('pjax') }}">pjax</a></li>
                 <li class="treeview">
                     <a href="#"><i class='fa fa-link'></i> <span>Multilevel</span> <i class="fa fa-angle-left pull-right"></i></a>
                     <ul class="treeview-menu">

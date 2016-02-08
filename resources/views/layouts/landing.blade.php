@@ -245,7 +245,7 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
 
         <div class="col-lg-7">
             <h3>Drop Us A Line</h3>
-            {{Session::get('notification')}}
+
             <br>
             <form role="form" action="sentContactEmail" method="post" enctype="plain">
                 {{csrf_field()}}
@@ -291,18 +291,8 @@ Landing page based on Pratt: http://blacktie.co/demo/pratt/
         interval: 3500
     })
 </script>
-@if(session()->has('notification'))
-    <script>
-        swal({
-                    title: "Good Job!",
-                    text: "{{Session::get('flash_message')}}",
-                    type: "success",
-                    confirmButtonText: "Ok!",
-                    timer: 2000,
-                }
-        )
-    </script>
-@endif
 
+
+@include('layouts.messages.flash')
 </body>
 </html>

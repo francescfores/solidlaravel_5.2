@@ -19,7 +19,8 @@ elixir(function(mix) {
         'sweetalert.css'
     ]);
     mix.scripts([
-        'sweetalert.min.js'
+        'sweetalert.min.js',
+        'jquery.pjax.js'
     ]);
 
 });

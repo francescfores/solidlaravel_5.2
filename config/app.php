@@ -211,6 +211,7 @@ return [
          */
         'AdminLTE' => Acacha\AdminLTETemplateLaravel\Facades\AdminLTE::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'pjax' => \App\Http\Middleware\Pjaxmiddleware::class
     ],
 
 ];
